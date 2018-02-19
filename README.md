@@ -1,0 +1,1 @@
+A url to more with human-readable information about the scheme used
