@@ -1,0 +1,68 @@
+diff --git a/README.md b/README.md
+index 0f27eb6..c00b42f 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,38 @@
+-A url to more with human-readable information about the scheme used
+\ No newline at end of file
++## Identifier Scheme Url Extension
++
++### Description
++A url to more with human-readable information about the scheme used in the identifier block
++
++### Fields
++- identifier.schemeURL: A url to more with human-readable information about the scheme used in the identifier block
++
++### Example
++```javascript
++...
++ "parties": [
++          {
++            "id": "06C00",
++            "additionalIdentifiers": [
++              {
++                "scheme": "MX-CPA",
++                "id": "06",
++                "legalName": "Hacienda y Crédito Público",
++                "schemeUrl": "http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/catalogos_presupuestarios.xlsx"
++              }
++            ],
++            "name": "Comisión Nacional de Seguros y Fianzas",
++            "contactPoint": {
++              "name": "Luis Fernando Sanchez Fernandez"
++            },
++            "identifier": {
++              "id": "06C00",
++              "legalName": "Comisión Nacional de Seguros y Fianzas",
++              "scheme": "MX-CPA",
++              "schemeUrl": "http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/catalogos_presupuestarios.xlsx"
++            },
++            "roles": [
++              "buyer"
++            ]
++          },
++...
++```
+\ No newline at end of file
+diff --git a/docs/index.md b/docs/index.md
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/extension.json b/extension.json
+index 9f1ab76..5c0082b 100644
+--- a/extension.json
++++ b/extension.json
+@@ -1 +1,11 @@
+-{"name":{"en":"identifierSchemeURL"},"description":{"en":"A url to more with human-readable information about the scheme used"},"documentationUrl":{"en":""}}
+\ No newline at end of file
++{
++  "name":{
++    "en":"Identifier Scheme URL"
++  },
++  "description":{
++    "en":"A url to more with human-readable information about the scheme used in the identifier block"
++  },
++  "documentationUrl":{
++    "en":"https://github.com/CompraNet/ocds_schemeUrl_extension/"
++  }
++}
+\ No newline at end of file

@@ -1,1 +1,11 @@
-{"name":{"en":"identifierSchemeURL"},"description":{"en":"A url to more with human-readable information about the scheme used"},"documentationUrl":{"en":""}}
+{
+  "name":{
+    "en":"Identifier Scheme URL"
+  },
+  "description":{
+    "en":"A url to more with human-readable information about the scheme used in the identifier block"
+  },
+  "documentationUrl":{
+    "en":"https://github.com/CompraNet/ocds_schemeUrl_extension/"
+  }
+}
